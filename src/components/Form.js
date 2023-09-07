@@ -29,7 +29,7 @@ const Form = () => {
     const content = (
         <form className="form flex-col" onSubmit={handleSubmit}>
             <header className="form-header">
-                <h2>{title[page]}</h2>
+                <h2 className="section-title">{title[page]}</h2>
                 <div className="button-container">
 
                     <button type="button" className={`button ${prevHide}`} onClick={handlePrev} disabled={disablePrev}>Prev</button>
